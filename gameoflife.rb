@@ -27,3 +27,20 @@
 # if cells are dead, cells are subject of rule four
 # once all cells are checked the tick finishes, than new tick begins
 # if all cells are dead, then game ends
+
+#things to look at...
+# if statements
+#if else statements
+#until loops
+#while loops
+# Arrays / How to index an array.
+# .each
+# . include?
+# .each_with_index
+
+
+
+#IF cell [X, Y] is ALIVE at time T 
+#THEN IF exactly 2 or 3 of its neighbours are also ALIVE at time T
+#THEN  cell [X, Y] remains ALIVE at time T+1
+#ELSE  cell [X, Y] becomes DEAD  at time T+1
