@@ -38,9 +38,20 @@
 # . include?
 # .each_with_index
 
-
+----
 
 #IF cell [X, Y] is ALIVE at time T 
 #THEN IF exactly 2 or 3 of its neighbours are also ALIVE at time T
 #THEN  cell [X, Y] remains ALIVE at time T+1
 #ELSE  cell [X, Y] becomes DEAD  at time T+1
+
+#IF cell [X,Y] is DEAD at time T 
+#THEN IF exactly 3 of its neighbours are ALIVE
+#THEN  cell [X, Y] becomes ALIVE at time T+1
+#ELSE  cell [X, Y] remains DEAD at time T+1
+
+#var x = 0;
+while (x) {
+document.write(x);
+x++;
+}
