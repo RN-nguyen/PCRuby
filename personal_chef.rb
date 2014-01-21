@@ -1,4 +1,4 @@
-class PersonalChef
+gclass PersonalChef
   def make_toast (number)
     number.to_i.times do
       puts "Making you #{number} Toasts !"
